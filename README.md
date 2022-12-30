@@ -13,18 +13,20 @@ For the first shuttle, we are starting small and verifying the USB core. The USB
 
 Future plans are to create a full featured VexRiscV core with SRAMs once the OpenRAM support is released.
 
+### Main changes from the base caravel_user_project repo
+- Added pyfive_top repo to /verilog/rtl
+- Added the basic openlane files to harden pyfive_top inside caravel (config.tcl, macro_placement.cfg, pin_order.cfg)
+- Modified verilog/rtl/user_project_wrapper to include pyfive_top
+- Modified openlane/user_project_wrapper/config.json for pyfive_top
+- Modified openlane/user_project_wrapper/macro.cfg
+
+
+
 
 
 ---
 
-# Caravel User Project
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![UPRJ_CI](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/user_project_ci.yml) [![Caravel Build](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml/badge.svg)](https://github.com/efabless/caravel_project_example/actions/workflows/caravel_build.yml)
-
-| :exclamation: Important Note            |
-|-----------------------------------------|
-
-## Please fill in your project documentation in this README.md file 
+## More info about Caravel User Project:
 
 Refer to [README](docs/source/index.rst#section-quickstart) for a quickstart of how to use caravel_user_project
 
