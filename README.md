@@ -22,7 +22,8 @@ Future plans are to create a full featured VexRiscV core with SRAMs once the Ope
 - Modified verilog/rtl/user_defines.v to set the power-on configuration of the GPIO
 
 
-
+### GDS view
+![](docs/gds_view.png)
 
 ---
 
