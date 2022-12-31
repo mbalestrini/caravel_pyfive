@@ -1,5 +1,43 @@
 # Caravel user project includes
--v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
--v $(USER_PROJECT_VERILOG)/rtl/user_proj_example.v
 
- 
+-v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v
+
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/audio.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/delay.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/fifo_sync_256x32_sky130.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/fifo_sync_ram.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/fifo_sync_shift.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/glitch_filter.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/pdm.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/pyfive_top.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/ram_sdp.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/uart_rx.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/uart_tx.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/uart_wb.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/vid_palette.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/vid_ram_char.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/vid_ram_screen.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/vid_tgen.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/vid_top.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/src/wb_splitter.v
+
+
+
+
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_crc.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_ep_buf.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_ep_status.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_phy.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_rx_ll.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_rx_pkt.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_sky130.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_trans.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_tx_ll.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb_tx_pkt.v
+-v $(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/usb.v
+
+-v $(USER_PROJECT_VERILOG)/rtl/sram_without_sim_display/sky130_sram_1kbyte_1rw1r_32x256_8.v
+
+
++incdir+$(USER_PROJECT_VERILOG)/rtl/pyfive_top/no2usb/rtl/
+

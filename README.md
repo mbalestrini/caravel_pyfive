@@ -20,6 +20,8 @@ Future plans are to create a full featured VexRiscV core with SRAMs once the Ope
 - Modified openlane/user_project_wrapper/config.json for pyfive_top
 - Modified openlane/user_project_wrapper/macro.cfg
 - Modified verilog/rtl/user_defines.v to set the power-on configuration of the GPIO
+- Modified verilog/includes/includes.rtl.caravel_user_project to add all the pyfive source to run verifications
+- Added the pyfive_test1 to the verilog/dv, adapting the test made for MPW-1
 
 
 ### GDS view
