@@ -5,6 +5,9 @@ https://platform.efabless.com/projects/12
 
 https://github.com/PyFive-RISC-V/caravel_pyfive
 
+### MPW-8 project
+https://platform.efabless.com/projects/1875
+
 ### Description
 
 The original goal of the PyFive project is to create a RISC-V based microcontroller with the ability to easily support CircuitPython.
